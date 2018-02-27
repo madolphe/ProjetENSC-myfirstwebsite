@@ -1,0 +1,42 @@
+*
+{
+    font-family: Avenir;
+    background: #FDFCF7;
+}
+.navbar
+{
+    color: black;
+    background-color:#C2C2BD;
+}
+.nav-link
+{
+    background-color:#C2C2BD;
+    color: white;
+}
+.navbar-brand
+{
+    background-color:#C2C2BD;
+    color: white;
+}
+#footer
+{
+    position: absolute;
+    bottom: 0;
+    background-color: #7F7E7F;
+    width:100%;
+    padding-top:20px;
+    height:5px;
+}
+
+#acceuil
+{
+    width: 100%;
+}
+
+.logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    background:#FDFCF7;
+}
