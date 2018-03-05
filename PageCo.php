@@ -18,18 +18,18 @@
 <body>
 
 			<div class="img_accueil">
-				<?php
-				require "HeaderNonCo.html"
-				?>
-                <h3>Partagez</h3>
-                <img src="#" alt="down_arrow">
+				<?php require "HeaderNonCo.html" ?>
+                <h3>Bienvenue sur GROUPEE !</h3>
+                <h4>GROUPEE :
+                    Gather Rapidly On Ur Private Exchange Environment<h4/>
+                    <h4>Ici, pas de profil public, GROUPEE est une application qui vous permet de partager vos photos, notes et planning à travers des channels privés, à vos proches et amis !</h4>
+                    <a href="#down_page"><img src="images/down-arrow.png" alt="down_arrow" id="downarrow"></a>
             </div>
 
-            <div class="container-fluid">
+            <div class="container" id="down_page">
                 <div class="row">
 				<img class="logo" src="images/logo.png" alt="logo"/>
                 <table>
-
                     <form action="#" method="POST">
                         <p>
                             <label for="login">Votre Login</label> :

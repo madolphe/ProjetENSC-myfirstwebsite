@@ -9,8 +9,6 @@
     opacity: 0.2;
 }
 
-
-
 .nav-link
 {
     color: white;
@@ -55,9 +53,15 @@
     position:relative;
 }
 
-.img_accueil h3 {
+.img_accueil h3  {
     color : #ffffff;
     text-align: center;
+    bottom:0;
+}
+
+.img_accueil h4 {
+    color : #ffffff !important;
+    text-align: center !important;
     bottom:0;
 }
 
@@ -66,4 +70,15 @@
     margin: 0 auto;
     bottom:0;
 }
+#downarrow
+{
+    width: 61px;
+}
 
+#down_page {
+    /* Enlever le "height:" car il ne sert qu'à avoir un apercu lorsqu'il n'y a pas bcp de contenu */
+    height: 500px;
+    margin: 35px auto;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 5px #c0c0c0;
+}
