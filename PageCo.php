@@ -16,39 +16,40 @@
 	<title>PageCo</title>
 </head>
 <body>
-	<?php
-		require "HeaderNonCo.html"
-	?>
-	<div class="container-fluid">
-		<div class="row">
 
-			<div class="col-md-6">
-				<img id="acceuil" src="images/photoAcceuil.jpg" alt="GroupeeAcceuilPhoto"/>
-			</div>
+			<div class="img_accueil">
+				<?php
+				require "HeaderNonCo.html"
+				?>
+                <h3>Partagez</h3>
+                <img src="#" alt="down_arrow">
+            </div>
 
-			<div class="col-md-6">
+            <div class="container-fluid">
+                <div class="row">
 				<img class="logo" src="images/logo.png" alt="logo"/>
-				<form action="#" method="POST">
-                    <h1>Connexion</h1>
-					<p>
-                        <label for="login">Votre Login</label> :
-                        <input type="text" name="login" id="login" />
-                    </p>
-                    <p>
-                        <label for="password">Mot de passe</label> :
-                        <input type="password" name="password" id="password" />
-                    </p>
-                    <p>
-                        <input type="submit" name="go" id="go" value="GO!"/>
-                    </p>
-                    <p>
-                        Pas encore inscrit?
-                        <br/>
-                        <a href="#"> Cliquez ici!</a>
-                    </p>
-				</form>
-			</div>
-		</div>
+                <table>
+
+                    <form action="#" method="POST">
+                        <p>
+                            <label for="login">Votre Login</label> :
+                            <input type="text" name="login" id="login" />
+                        </p>
+                        <p>
+                            <label for="password">Mot de passe</label> :
+                            <input type="password" name="password" id="password" />
+                        </p>
+                        <p>
+                            <input type="submit" name="go" id="go" value="GO!"/>
+                        </p>
+                        <p>
+                            Pas encore inscrit?
+                            <br/>
+                            <a href="#"> Cliquez ici!</a>
+                        </p>
+                    </form>
+                </table>
+        	</div>
 	</div>
 </body>
 </html>
